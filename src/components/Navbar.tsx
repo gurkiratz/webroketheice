@@ -16,18 +16,9 @@ const Nav = () => {
       <Link href={'/find'}>
         <Navbar.Item selected={true}>Find</Navbar.Item>
       </Link>
-      <Link href={'/profile'}>
-        <Navbar.Item>Dashboard</Navbar.Item>
-      </Link>
-
-      <OAuthSocialButton
-        onClick={() => signIn()}
-        logo="https://res.cloudinary.com/subframe/image/upload/v1711417516/shared/z0i3zyjjqkobzuaecgno.svg"
-        disabled={false}
-      >
+      <Button onClick={() => signIn()} variant="neutral-secondary">
         Sign in with Google
-      </OAuthSocialButton>
-
+      </Button>
       <Button onClick={() => signOut()} variant="neutral-secondary">
         Log Out
       </Button>

@@ -19,9 +19,7 @@ function PhLaunchPostCopy() {
           <div className="flex w-full flex-col items-start gap-6">
             <div className="flex w-full items-center justify-between">
               <div className="flex h-16 w-16 flex-none items-center justify-between">
-                <Image
-                  height={80}
-                  width={80}
+                <img
                   alt={'image'}
                   className="h-full w-full grow shrink-0 basis-0"
                   src="https://res.cloudinary.com/subframe/image/upload/v1711417511/shared/t4qorgih4yjwudzjfkxq.png"
@@ -31,14 +29,14 @@ function PhLaunchPostCopy() {
             <div className="flex w-full items-center gap-2">
               <div className="flex w-full grow shrink-0 basis-0 flex-col items-start gap-1">
                 <span className="text-heading-1 font-heading-1 text-default-font">
-                  Subframe
+                  2 Truths and a Lie
                 </span>
                 <span className="text-heading-3 font-heading-3 text-subtext-color">
-                  The best way to build UI, fast
+                  The best way to find a lier
                 </span>
               </div>
               <Button size="large" icon="FeatherChevronUp">
-                UPVOTE
+                LET&apos;S PLAY
               </Button>
             </div>
           </div>
@@ -68,10 +66,9 @@ function PhLaunchPostCopy() {
                 </Button>
               </div>
               <span className="text-body font-body text-default-font">
-                Visually build UI using real components. Start with stunning
-                templates. Personalize your theme. Design pages with our
-                intuitive drag-and-drop editor. Then, save hours by never having
-                to write CSS again.
+                Participants draw two true things about themselves and one lie
+                on a piece of paper. Others try to guess the lie while learning
+                about each others artistic skills.
               </span>
             </div>
             <div className="flex flex-wrap items-center gap-2">
@@ -93,7 +90,6 @@ function PhLaunchPostCopy() {
           <PhMakerShoutout>
             <PhMakerShoutout.Shoutout
               className="h-auto w-full grow shrink-0 basis-0"
-              logo="https://res.cloudinary.com/subframe/image/upload/v1713909359/uploads/279/d7be8pphlxlqp7zep9ch.avif"
               title="Truth or Dare"
               subtitle="8,379 upvotes"
               desc="Supabase helped us launch our product in way less time."
@@ -101,7 +97,6 @@ function PhLaunchPostCopy() {
             <div className="flex h-full w-px flex-none flex-col items-center gap-2 bg-neutral-border" />
             <PhMakerShoutout.Shoutout
               className="h-auto w-full grow shrink-0 basis-0"
-              logo="https://res.cloudinary.com/subframe/image/upload/v1713909352/uploads/279/rsam5v66hcvpj96fr5hc.avif"
               title="Liveblocks"
               subtitle="2,124 upvotes"
               desc="Liveblocks powers Subframe's real-time collaboration features. "
@@ -109,7 +104,6 @@ function PhLaunchPostCopy() {
             <div className="flex h-full w-px flex-none flex-col items-center gap-2 bg-neutral-border" />
             <PhMakerShoutout.Shoutout
               className="h-auto w-full grow shrink-0 basis-0"
-              logo="https://res.cloudinary.com/subframe/image/upload/v1713909410/uploads/279/lrksle90ypvwqhk1pksk.avif"
               title="Loops"
               subtitle="2,730 upvotes"
               desc="Awesome tool for B2B email! Really responsive customer support too."
@@ -157,7 +151,6 @@ function PhLaunchPostCopy() {
         </div>
         <div className="flex w-full flex-col items-start gap-8">
           <PhComment
-            avatar="https://res.cloudinary.com/subframe/image/upload/v1711417513/shared/kwut7rhuyivweg8tmyzl.jpg"
             name="Irvin Zhan"
             handle="@irvon_at_subframe"
             badges={<Badge variant="success">Maker</Badge>}
@@ -177,7 +170,6 @@ function PhLaunchPostCopy() {
             }
           />
           <PhComment
-            avatar="https://res.cloudinary.com/subframe/image/upload/v1711417514/shared/ubsk7cs5hnnaj798efej.jpg"
             name="Aris Merlo"
             handle="@saa"
             body="This is awesome. Turning ideas into code is one of the most critical task I've ever had. Subframe is super useful and user friendly. Glad to see you addressing something so challenging. Keep on that way my friend. All the best!"
