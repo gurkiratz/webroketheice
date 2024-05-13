@@ -4,8 +4,8 @@ import { Providers } from './providers'
 import Nav from '@/components/Navbar'
 
 export const metadata: Metadata = {
-  title: 'Subframe Next.js Starter',
-  description: 'Your starter kit for integrating Subframe into Next.js',
+  title: 'We Broke The Ice',
+  description: 'Your one-stop place for icebreaker ideas',
 }
 
 export default function RootLayout({
